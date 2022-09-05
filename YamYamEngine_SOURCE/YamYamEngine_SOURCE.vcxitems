@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{250a46e2-1d04-479c-881f-4f9a9b50c34f}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Animator.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)BaseCollider.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Camera.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)CommandQueue.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Component.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ConstantBuffer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GraphicDevice.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Application.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)YamYamEngine.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)FBXLoader.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Frustum.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Input.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)InstancingBuffer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)InstancingManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Light.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Material.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Mesh.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MeshData.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MeshRenderer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MonoBehaviour.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Object.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ParticleSystem.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)RenderTargetGroup.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Resources.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)RootSignature.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Scene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SceneManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Shader.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SimpleMath.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SphereCollider.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)StructuredBuffer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SwapChain.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)TableDescriptorHeap.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Terrain.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)TestCameraScript.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)TestDragon.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Texture.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Timer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Transform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Animator.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)BaseCollider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Camera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)CommandQueue.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Component.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ConstantBuffer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)d3dx12.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GraphicDevice.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Application.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)YamYamEngine.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)FBXLoader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Frustum.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Input.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)InstancingBuffer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)InstancingManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Light.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Material.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Mesh.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MeshData.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MeshRenderer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MonoBehaviour.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Object.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ParticleSystem.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)RenderTargetGroup.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Resources.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)RootSignature.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Scene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SceneManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Shader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SimpleMath.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SphereCollider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)StructuredBuffer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SwapChain.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)TableDescriptorHeap.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Terrain.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)TestCameraScript.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)TestDragon.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Texture.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Timer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Transform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)SimpleMath.inl" />
+  </ItemGroup>
+</Project>

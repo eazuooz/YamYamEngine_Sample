@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YamYamEngine_SOURCE", "YamYamEngine_SOURCE\YamYamEngine_SOURCE.vcxitems", "{250A46E2-1D04-479C-881F-4F9A9B50C34F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shader_SOURCE", "shader_SOURCE\shader_SOURCE.vcxitems", "{EF806D67-32B8-46DE-8B31-5E3AABB7E413}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Editor_Windows", "Editor_Windows\Editor_Windows.vcxproj", "{E72A6D24-59E9-4384-8A98-EC3B6A137461}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		YamYamEngine_SOURCE\YamYamEngine_SOURCE.vcxitems*{250a46e2-1d04-479c-881f-4f9a9b50c34f}*SharedItemsImports = 9
+		YamYamEngine_SOURCE\YamYamEngine_SOURCE.vcxitems*{e72a6d24-59e9-4384-8a98-ec3b6a137461}*SharedItemsImports = 4
+		shader_SOURCE\shader_SOURCE.vcxitems*{ef806d67-32b8-46de-8b31-5e3aabb7e413}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E72A6D24-59E9-4384-8A98-EC3B6A137461}.Debug|x64.ActiveCfg = Debug|x64
+		{E72A6D24-59E9-4384-8A98-EC3B6A137461}.Debug|x64.Build.0 = Debug|x64
+		{E72A6D24-59E9-4384-8A98-EC3B6A137461}.Debug|x86.ActiveCfg = Debug|Win32
+		{E72A6D24-59E9-4384-8A98-EC3B6A137461}.Debug|x86.Build.0 = Debug|Win32
+		{E72A6D24-59E9-4384-8A98-EC3B6A137461}.Release|x64.ActiveCfg = Release|x64
+		{E72A6D24-59E9-4384-8A98-EC3B6A137461}.Release|x64.Build.0 = Release|x64
+		{E72A6D24-59E9-4384-8A98-EC3B6A137461}.Release|x86.ActiveCfg = Release|Win32
+		{E72A6D24-59E9-4384-8A98-EC3B6A137461}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86555B54-5C1D-4B1C-8AF7-50E6F671D1A9}
+	EndGlobalSection
+EndGlobal

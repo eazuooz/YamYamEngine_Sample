@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{ef806d67-32b8-46de-8b31-5e3aabb7e413}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)default.hlsli" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="$(MSBuildThisFileDirectory)animation.fx" />
+    <FxCompile Include="$(MSBuildThisFileDirectory)compute.fx" />
+    <FxCompile Include="$(MSBuildThisFileDirectory)deferred.fx" />
+    <FxCompile Include="$(MSBuildThisFileDirectory)forward.fx" />
+    <FxCompile Include="$(MSBuildThisFileDirectory)lighting.fx" />
+    <FxCompile Include="$(MSBuildThisFileDirectory)math.fx" />
+    <FxCompile Include="$(MSBuildThisFileDirectory)params.fx" />
+    <FxCompile Include="$(MSBuildThisFileDirectory)particle.fx" />
+    <FxCompile Include="$(MSBuildThisFileDirectory)shadow.fx" />
+    <FxCompile Include="$(MSBuildThisFileDirectory)skybox.fx" />
+    <FxCompile Include="$(MSBuildThisFileDirectory)terrain.fx" />
+    <FxCompile Include="$(MSBuildThisFileDirectory)tessellation.fx" />
+    <FxCompile Include="$(MSBuildThisFileDirectory)utils.fx" />
+  </ItemGroup>
+</Project>
